@@ -3,9 +3,12 @@ This is a personal dotfiles project and for MacOS only now.
 
 # Preparation
 1.  Install Xcode Command Line Tools(For we need gcc).  
-    Just type following command in terminal:
+    Just type following command in terminal:  
+    
         #> xcode-select --install
+    
     A Install window will pop up if you need install it or you will get message like this:  
+    
         xcode-select: error: command line tools are already installed, use "Software Update" to install updates
 
 # How to use
