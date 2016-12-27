@@ -1,0 +1,48 @@
+# Options
+ExitOnForwardFailure yes
+
+# production of zqhua
+Host zqhua_p
+  HostName zqhua.cn
+  Port 21807
+  User deploy
+
+# test of zqhua
+Host zqhua_t
+  HostName 29hua.cn
+  Port 21807
+  User deploy
+
+# production of crm
+Host crm01
+  HostName bj2-crm01
+  User deploy
+Host crm02
+  HostName bj2-crm02
+  User deploy
+Host crm03
+  HostName bj2-crm03
+  User deploy
+Host crm04
+  HostName bj2-crm04
+  User deploy
+
+# test of crm
+Host crmtest01
+  HostName 119.254.100.162
+  Port 22223
+  User deploy
+Host crmtest02
+  HostName localhost
+  Port 9001
+  User deploy
+Host crmtest02_tunnel
+  HostName 119.254.100.162
+  Port 22223
+  User deploy
+  LocalForward 9001 192.168.200.2:22
+
+# linode
+Host niner
+  HostName 45.79.71.210
+  User deploy
