@@ -2,6 +2,9 @@
 	name = Arthur.Qin
 	email = magus0219@gmail.com
 
+[core]
+    editor = vim
+
 [url "https://github.com/"]
 	insteadOf = gh:
 
