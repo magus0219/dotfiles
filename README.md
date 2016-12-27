@@ -9,8 +9,8 @@ This is a personal dotfiles project and for MacOS only now.
         xcode-select: error: command line tools are already installed, use "Software Update" to install updates
 
 # How to use
-    git clone https://github.com/magus0219/dotfiles ~/; cd ~/dotfiles; source ./setup.sh
-    
+    git clone https://github.com/magus0219/dotfiles ~/.dotfiles; cd ~/.dotfiles; source ./setup.sh
+
 # Design pattern
 1.  Easy use with single entry.
 2.  Separate heavy installations and login setups by setup.sh and .zshrc  
