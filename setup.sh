@@ -34,7 +34,7 @@ curl -fsSL https://raw.githubusercontent.com/rupa/z/master/z.sh > ~/z.sh
 echo 'Download vim bundle...'
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir ~/.vim/colors
-curl -fsSL https://raw.githubusercontent.com/altercation/vim-colors-solarized/colors/solarized.vim > ~/.vim/colors/solarized.vim
+curl -fsSL https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim > ~/.vim/colors/solarized.vim
 
 # Step 5. link dotfiles
 echo 'Link dotfiles...'
