@@ -26,21 +26,33 @@ Host crm03
 Host crm04
   HostName bj2-crm04
   User deploy
+Host crm05
+  HostName bj2-crm05
+  User deploy
 
 # test of crm
-Host crmtest01
+Host crmtest1
   HostName 119.254.100.162
   Port 22223
   User deploy
-Host crmtest02
+Host crmtest2
   HostName localhost
   Port 9001
   User deploy
-Host crmtest02_tunnel
+Host crmtest2_tunnel
   HostName 119.254.100.162
   Port 22223
   User deploy
   LocalForward 9001 192.168.200.2:22
+
+# production of gta
+Host gta01
+  HostName 139.198.11.136
+  User deploy
+# test of gta
+Host gtatest
+  HostName 139.198.191.24
+  User deploy
 
 # linode
 Host niner
