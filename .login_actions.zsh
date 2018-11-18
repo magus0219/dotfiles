@@ -1,3 +1,3 @@
 # add ssh tunnel
-echo 'add ssh tunnel...'
-addtunneltest2
+# echo 'add ssh tunnel...'
+# addtunneltest2

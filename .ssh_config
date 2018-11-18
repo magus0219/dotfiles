@@ -77,3 +77,37 @@ Host vp
   HostName 139.198.11.136
   Port 12222
   User deploy
+
+Host nexttao
+  HostName 42.159.86.106
+  User ubuntu
+
+# elementel
+Host elementel
+  HostName 139.224.115.147
+  User deploy
+
+Host epdb01
+  HostName 134.175.181.131
+  Port 36000
+  User deploy
+
+Host epdb02
+  HostName 134.175.202.63
+  Port 36000
+  User deploy
+
+Host epdb03
+  HostName 134.175.197.97
+  Port 36000
+  User deploy
+
+Host epgame01
+  HostName 134.175.202.82
+  Port 36000
+  User deploy
+
+# minigame
+Host minigame
+  HostName 106.14.171.224
+  User deploy
