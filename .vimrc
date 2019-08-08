@@ -44,6 +44,9 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
+" Dockerfile Support
+Plugin 'ekalinin/Dockerfile.vim'
+
 call vundle#end()
 
 " Appearance

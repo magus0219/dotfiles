@@ -111,3 +111,9 @@ Host epgame01
 Host minigame
   HostName 106.14.171.224
   User deploy
+
+# nas918
+Host nas
+  HostName nas.magicqin.com
+  Port 2223
+  User magus0219
