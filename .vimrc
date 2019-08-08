@@ -43,9 +43,8 @@ Plugin 'vim-airline/vim-airline'
 " Highlight plugin
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-
-" Dockerfile Support
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'stephpy/vim-yaml'
 
 call vundle#end()
 
