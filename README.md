@@ -18,7 +18,12 @@ This is a personal dotfiles project and for MacOS only now.
 # How to use
 1. Download and install
    ```shell
-   ALL_PROXY=socks5://127.0.0.1:1086 clone https://github.com/magus0219/dotfiles ~/.dotfiles; cd ~/.dotfiles; source ./setup.sh
+   git clone https://github.com/magus0219/dotfiles ~/.dotfiles; cd ~/.dotfiles; source ./setup.sh
+   ```
+
+   if you are living in mainland of China, proxy setting should be added as following:
+   ```shell
+   ALL_PROXY=socks5://127.0.0.1:1086 git clone https://github.com/magus0219/dotfiles ~/.dotfiles; cd ~/.dotfiles; source ./setup.sh 
    ```
    
 2. Change Your git username and email

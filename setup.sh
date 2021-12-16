@@ -9,7 +9,8 @@ echo "Target directory(Home of current user) is $targetpath"
 
 # Step 1. Install homebrew
 echo 'Install homebrew...'
-if test ! $(which brew); then
+if ! command -v brew >/dev/null 2>&1; then
+    echo 'brew is missing, install now...'
     export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
     export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
     export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
