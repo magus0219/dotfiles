@@ -23,10 +23,11 @@ This is a personal dotfiles project and for MacOS only now.
 
    if you are living in mainland of China, proxy setting should be added as following:
    ```shell
-   ALL_PROXY=socks5://127.0.0.1:1086 git clone https://github.com/magus0219/dotfiles ~/.dotfiles; cd ~/.dotfiles; source ./setup.sh 
+   export ALL_PROXY=socks5://127.0.0.1:1086 
+   git clone https://github.com/magus0219/dotfiles ~/.dotfiles; cd ~/.dotfiles; source ./setup.sh 
    ```
    
-2. Change Your git username and email
+2. Change Your git username and email  
    Use your system editor to change git username and email in *.gitconfig*
 
 # Design pattern
