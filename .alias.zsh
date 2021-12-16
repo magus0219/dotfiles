@@ -13,5 +13,3 @@ alias -s gz='tar -xzvf'
 alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
-alias node="node --harmony"
-alias addtunneltest02="ssh -L 9001:192.168.200.2:22 -p 22223 deploy@119.254.100.162 -N -f"

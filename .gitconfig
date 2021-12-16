@@ -1,6 +1,6 @@
 [user]
-	name = Arthur.Qin
-	email = magus0219@gmail.com
+	name = Arthur.Qin  # TODO: change it
+	email = magus0219@gmail.com  # TODO: change it
 
 [core]
     editor = vim
@@ -28,3 +28,6 @@
 	added = yellow
 	changed = green
 	untracked = red
+
+[http "https://github.com"]
+	proxy = socks5://127.0.0.1:1086  # shadowsocks proxy
