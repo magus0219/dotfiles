@@ -20,6 +20,9 @@ if ! command -v brew >/dev/null 2>&1; then
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ./.path.zsh
     echo 'export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"' >> ./.path.zsh
     echo 'export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"' >> ./.path.zsh
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+    export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
+    export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
 fi
 
 # Update homebrew formulas

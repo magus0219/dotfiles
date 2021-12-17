@@ -13,3 +13,6 @@ alias -s gz='tar -xzvf'
 alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
+
+alias proxyup='export ALL_PROXY=socks5://127.0.0.1:1086' # shadowsocks proxy
+alias proxydown='unset proxyup'
