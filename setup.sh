@@ -31,7 +31,7 @@ brew update
 
 # Step 2. Setup zsh & on-my-zsh
 echo 'Setup zsh & on-my-zsh...'
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended --skip-chsh
 chsh -s $(which zsh)
 
 # Step 3. Get extra scripts
